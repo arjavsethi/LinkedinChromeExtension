@@ -1,4 +1,4 @@
-console.log("Hello")
+
 // Create popup container
 const popupContainer = document.createElement('div');
 popupContainer.setAttribute('id', 'popup-container');
@@ -24,7 +24,7 @@ popup.style.borderRadius = '10px';
 popup.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.5)';
 popup.style.textAlign = 'center';
 popup.style.width = '300px';
-popup.style.height = '200px';
+popup.style.height = '500px';
 popup.style.fontSize = '20px';
 popup.style.color = '#333';
 
@@ -44,7 +44,7 @@ popup.appendChild(closeButton);
 
 // Create popup content
 const popupContent = document.createElement('div');
-popupContent.innerHTML = '<h6>Generate Message</h6><hr/><div class = "messageList"></div>';
+popupContent.innerHTML = '<h6>Generate Message</h6><hr/><div style="font-weight: normal; font-size: small;"   id = "messageList">Please Wait Generating your message!!</div>';
 
 // Add popup content to popup
 popup.appendChild(popupContent);

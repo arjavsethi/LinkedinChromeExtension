@@ -1,11 +1,23 @@
 body {
-    background-color: #222;
-    color: #eee;
+    background-color: white;
+    color: black;
 
-    width: 16rem;
-    height: 4rem;
+    width: 25rem;
+    height: 12rem;
 }
 
 .special-text {
     color: red;
 }
+#desc {
+    height: 3em; /* or 3 * line-height */
+  }
+  h3{
+   margin-left: 5rem;
+  }
+  input{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    margin-left: 5rem;
+  }
