@@ -1,4 +1,4 @@
-#Chrome Extension using OpenAI API and Text-Davinci Model - 
+#Chrome Extension using OpenAI API and Text-Davinci Model# - 
 This project is a Chrome extension that utilizes OpenAI's text-davinci model to generate messages based on chat history. With this extension, you can streamline your communication by generating personalized messages without having to spend time typing them out.
 
 #Installation
