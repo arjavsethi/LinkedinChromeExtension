@@ -36,7 +36,7 @@ return response;
 }
 const generateMessage = async(messageHistory,element) =>{
   var message ;
-   const apiKey = "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";
+   const apiKey = "Your Api Key";
    const prompt = generatePrompt(messageHistory);
    const response = await apiCall(prompt,apiKey).then(response => response.json())
         .then((data) =>{
